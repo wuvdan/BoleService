@@ -125,13 +125,9 @@
 		4810C7DF24C836D4000006CD /* BoleService */ = {
 			isa = PBXGroup;
 			children = (
-				4810C7E024C836D4000006CD /* AppDelegate.swift */,
-				487E41FD24C8399400D25E52 /* TabBarController.swift */,
-				487E41FF24C839AE00D25E52 /* NavigationController.swift */,
-				487E420124C839BF00D25E52 /* BaseViewController.swift */,
-				487E420324C83AA300D25E52 /* ToolViewController.swift */,
-				487E420524C83AD700D25E52 /* NewsViewController.swift */,
-				487E420724C83AF300D25E52 /* SettingViewController.swift */,
+				484E483624C8479300BC4DA8 /* Constants */,
+				484E483524C8478900BC4DA8 /* Category */,
+				484E483024C846D600BC4DA8 /* Module */,
 				4810C80E24C836E3000006CD /* Supporting Files */,
 			);
 			path = BoleService;
@@ -158,6 +154,7 @@
 		4810C80E24C836E3000006CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4810C7E024C836D4000006CD /* AppDelegate.swift */,
 				4810C7E224C836D4000006CD /* ViewController.swift */,
 				4810C7E424C836D4000006CD /* Main.storyboard */,
 				4810C7E724C836D5000006CD /* Assets.xcassets */,
@@ -165,6 +162,73 @@
 				4810C7EC24C836D5000006CD /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		484E482E24C8467C00BC4DA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				487E420324C83AA300D25E52 /* ToolViewController.swift */,
+				487E420524C83AD700D25E52 /* NewsViewController.swift */,
+				487E420724C83AF300D25E52 /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		484E482F24C8468D00BC4DA8 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				487E41FD24C8399400D25E52 /* TabBarController.swift */,
+				487E41FF24C839AE00D25E52 /* NavigationController.swift */,
+				487E420124C839BF00D25E52 /* BaseViewController.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		484E483024C846D600BC4DA8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				484E483424C8477500BC4DA8 /* ViewModel */,
+				484E483324C8475100BC4DA8 /* View */,
+				484E483224C8474A00BC4DA8 /* Model */,
+				484E482F24C8468D00BC4DA8 /* Structure */,
+				484E482E24C8467C00BC4DA8 /* Controller */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		484E483224C8474A00BC4DA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		484E483324C8475100BC4DA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		484E483424C8477500BC4DA8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		484E483524C8478900BC4DA8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		484E483624C8479300BC4DA8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		E246166B1C66E7087085C1F3 /* Frameworks */ = {
