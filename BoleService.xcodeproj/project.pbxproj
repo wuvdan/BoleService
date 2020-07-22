@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12824B2ED3223290CC3D8BF4 /* Pods_BoleService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8261E35D8234BB2E082329CC /* Pods_BoleService.framework */; };
+		4810C7E124C836D4000006CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810C7E024C836D4000006CD /* AppDelegate.swift */; };
+		4810C7E324C836D4000006CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810C7E224C836D4000006CD /* ViewController.swift */; };
+		4810C7E624C836D4000006CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4810C7E424C836D4000006CD /* Main.storyboard */; };
+		4810C7E824C836D5000006CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4810C7E724C836D5000006CD /* Assets.xcassets */; };
+		4810C7EB24C836D5000006CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4810C7E924C836D5000006CD /* LaunchScreen.storyboard */; };
+		4810C7F624C836D6000006CD /* BoleServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810C7F524C836D6000006CD /* BoleServiceTests.swift */; };
+		4810C80124C836D6000006CD /* BoleServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810C80024C836D6000006CD /* BoleServiceUITests.swift */; };
+		487E41FE24C8399400D25E52 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E41FD24C8399400D25E52 /* TabBarController.swift */; };
+		487E420024C839AE00D25E52 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E41FF24C839AE00D25E52 /* NavigationController.swift */; };
+		487E420224C839BF00D25E52 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E420124C839BF00D25E52 /* BaseViewController.swift */; };
+		487E420424C83AA300D25E52 /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E420324C83AA300D25E52 /* ToolViewController.swift */; };
+		487E420624C83AD700D25E52 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E420524C83AD700D25E52 /* NewsViewController.swift */; };
+		487E420824C83AF300D25E52 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E420724C83AF300D25E52 /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4810C7F224C836D6000006CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4810C7D524C836D4000006CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4810C7DC24C836D4000006CD;
+			remoteInfo = BoleService;
+		};
+		4810C7FD24C836D6000006CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4810C7D524C836D4000006CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4810C7DC24C836D4000006CD;
+			remoteInfo = BoleService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05716007AE17AAF6016616EC /* Pods-BoleService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoleService.release.xcconfig"; path = "Target Support Files/Pods-BoleService/Pods-BoleService.release.xcconfig"; sourceTree = "<group>"; };
+		4810C7DD24C836D4000006CD /* BoleService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoleService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4810C7E024C836D4000006CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4810C7E224C836D4000006CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4810C7E524C836D4000006CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4810C7E724C836D5000006CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4810C7EA24C836D5000006CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4810C7EC24C836D5000006CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4810C7F124C836D6000006CD /* BoleServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoleServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4810C7F524C836D6000006CD /* BoleServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoleServiceTests.swift; sourceTree = "<group>"; };
+		4810C7F724C836D6000006CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4810C7FC24C836D6000006CD /* BoleServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoleServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4810C80024C836D6000006CD /* BoleServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoleServiceUITests.swift; sourceTree = "<group>"; };
+		4810C80224C836D6000006CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487E41FD24C8399400D25E52 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		487E41FF24C839AE00D25E52 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		487E420124C839BF00D25E52 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		487E420324C83AA300D25E52 /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
+		487E420524C83AD700D25E52 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		487E420724C83AF300D25E52 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		8261E35D8234BB2E082329CC /* Pods_BoleService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoleService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA873142003FAB3B3F4AE6A7 /* Pods-BoleService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoleService.debug.xcconfig"; path = "Target Support Files/Pods-BoleService/Pods-BoleService.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4810C7DA24C836D4000006CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12824B2ED3223290CC3D8BF4 /* Pods_BoleService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4810C7EE24C836D6000006CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4810C7F924C836D6000006CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7AC44E071933A92AE18891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA873142003FAB3B3F4AE6A7 /* Pods-BoleService.debug.xcconfig */,
+				05716007AE17AAF6016616EC /* Pods-BoleService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4810C7D424C836D4000006CD = {
+			isa = PBXGroup;
+			children = (
+				4810C7DF24C836D4000006CD /* BoleService */,
+				4810C7F424C836D6000006CD /* BoleServiceTests */,
+				4810C7FF24C836D6000006CD /* BoleServiceUITests */,
+				4810C7DE24C836D4000006CD /* Products */,
+				0E7AC44E071933A92AE18891 /* Pods */,
+				E246166B1C66E7087085C1F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4810C7DE24C836D4000006CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4810C7DD24C836D4000006CD /* BoleService.app */,
+				4810C7F124C836D6000006CD /* BoleServiceTests.xctest */,
+				4810C7FC24C836D6000006CD /* BoleServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4810C7DF24C836D4000006CD /* BoleService */ = {
+			isa = PBXGroup;
+			children = (
+				4810C7E024C836D4000006CD /* AppDelegate.swift */,
+				487E41FD24C8399400D25E52 /* TabBarController.swift */,
+				487E41FF24C839AE00D25E52 /* NavigationController.swift */,
+				487E420124C839BF00D25E52 /* BaseViewController.swift */,
+				487E420324C83AA300D25E52 /* ToolViewController.swift */,
+				487E420524C83AD700D25E52 /* NewsViewController.swift */,
+				487E420724C83AF300D25E52 /* SettingViewController.swift */,
+				4810C80E24C836E3000006CD /* Supporting Files */,
+			);
+			path = BoleService;
+			sourceTree = "<group>";
+		};
+		4810C7F424C836D6000006CD /* BoleServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4810C7F524C836D6000006CD /* BoleServiceTests.swift */,
+				4810C7F724C836D6000006CD /* Info.plist */,
+			);
+			path = BoleServiceTests;
+			sourceTree = "<group>";
+		};
+		4810C7FF24C836D6000006CD /* BoleServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4810C80024C836D6000006CD /* BoleServiceUITests.swift */,
+				4810C80224C836D6000006CD /* Info.plist */,
+			);
+			path = BoleServiceUITests;
+			sourceTree = "<group>";
+		};
+		4810C80E24C836E3000006CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4810C7E224C836D4000006CD /* ViewController.swift */,
+				4810C7E424C836D4000006CD /* Main.storyboard */,
+				4810C7E724C836D5000006CD /* Assets.xcassets */,
+				4810C7E924C836D5000006CD /* LaunchScreen.storyboard */,
+				4810C7EC24C836D5000006CD /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E246166B1C66E7087085C1F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8261E35D8234BB2E082329CC /* Pods_BoleService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4810C7DC24C836D4000006CD /* BoleService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4810C80524C836D6000006CD /* Build configuration list for PBXNativeTarget "BoleService" */;
+			buildPhases = (
+				BA9268B3786EBEB50C79118F /* [CP] Check Pods Manifest.lock */,
+				4810C7D924C836D4000006CD /* Sources */,
+				4810C7DA24C836D4000006CD /* Frameworks */,
+				4810C7DB24C836D4000006CD /* Resources */,
+				14132216FB6BFFE3DB26B48E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoleService;
+			productName = BoleService;
+			productReference = 4810C7DD24C836D4000006CD /* BoleService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4810C7F024C836D6000006CD /* BoleServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4810C80824C836D6000006CD /* Build configuration list for PBXNativeTarget "BoleServiceTests" */;
+			buildPhases = (
+				4810C7ED24C836D6000006CD /* Sources */,
+				4810C7EE24C836D6000006CD /* Frameworks */,
+				4810C7EF24C836D6000006CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4810C7F324C836D6000006CD /* PBXTargetDependency */,
+			);
+			name = BoleServiceTests;
+			productName = BoleServiceTests;
+			productReference = 4810C7F124C836D6000006CD /* BoleServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4810C7FB24C836D6000006CD /* BoleServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4810C80B24C836D6000006CD /* Build configuration list for PBXNativeTarget "BoleServiceUITests" */;
+			buildPhases = (
+				4810C7F824C836D6000006CD /* Sources */,
+				4810C7F924C836D6000006CD /* Frameworks */,
+				4810C7FA24C836D6000006CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4810C7FE24C836D6000006CD /* PBXTargetDependency */,
+			);
+			name = BoleServiceUITests;
+			productName = BoleServiceUITests;
+			productReference = 4810C7FC24C836D6000006CD /* BoleServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4810C7D524C836D4000006CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = wudan;
+				TargetAttributes = {
+					4810C7DC24C836D4000006CD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4810C7F024C836D6000006CD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4810C7DC24C836D4000006CD;
+					};
+					4810C7FB24C836D6000006CD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4810C7DC24C836D4000006CD;
+					};
+				};
+			};
+			buildConfigurationList = 4810C7D824C836D4000006CD /* Build configuration list for PBXProject "BoleService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4810C7D424C836D4000006CD;
+			productRefGroup = 4810C7DE24C836D4000006CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4810C7DC24C836D4000006CD /* BoleService */,
+				4810C7F024C836D6000006CD /* BoleServiceTests */,
+				4810C7FB24C836D6000006CD /* BoleServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4810C7DB24C836D4000006CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4810C7EB24C836D5000006CD /* LaunchScreen.storyboard in Resources */,
+				4810C7E824C836D5000006CD /* Assets.xcassets in Resources */,
+				4810C7E624C836D4000006CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4810C7EF24C836D6000006CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4810C7FA24C836D6000006CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14132216FB6BFFE3DB26B48E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoleService/Pods-BoleService-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoleService/Pods-BoleService-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoleService/Pods-BoleService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9268B3786EBEB50C79118F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoleService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4810C7D924C836D4000006CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487E420224C839BF00D25E52 /* BaseViewController.swift in Sources */,
+				487E41FE24C8399400D25E52 /* TabBarController.swift in Sources */,
+				487E420024C839AE00D25E52 /* NavigationController.swift in Sources */,
+				487E420824C83AF300D25E52 /* SettingViewController.swift in Sources */,
+				4810C7E324C836D4000006CD /* ViewController.swift in Sources */,
+				487E420624C83AD700D25E52 /* NewsViewController.swift in Sources */,
+				487E420424C83AA300D25E52 /* ToolViewController.swift in Sources */,
+				4810C7E124C836D4000006CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4810C7ED24C836D6000006CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4810C7F624C836D6000006CD /* BoleServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4810C7F824C836D6000006CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4810C80124C836D6000006CD /* BoleServiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4810C7F324C836D6000006CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4810C7DC24C836D4000006CD /* BoleService */;
+			targetProxy = 4810C7F224C836D6000006CD /* PBXContainerItemProxy */;
+		};
+		4810C7FE24C836D6000006CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4810C7DC24C836D4000006CD /* BoleService */;
+			targetProxy = 4810C7FD24C836D6000006CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4810C7E424C836D4000006CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4810C7E524C836D4000006CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4810C7E924C836D5000006CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4810C7EA24C836D5000006CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4810C80324C836D6000006CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4810C80424C836D6000006CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4810C80624C836D6000006CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA873142003FAB3B3F4AE6A7 /* Pods-BoleService.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BoleService/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.BoleService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4810C80724C836D6000006CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05716007AE17AAF6016616EC /* Pods-BoleService.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TU5547C6N;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/BoleService/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.BoleService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4810C80924C836D6000006CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoleServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.BoleServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoleService.app/BoleService";
+			};
+			name = Debug;
+		};
+		4810C80A24C836D6000006CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoleServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.BoleServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoleService.app/BoleService";
+			};
+			name = Release;
+		};
+		4810C80C24C836D6000006CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoleServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.BoleServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoleService;
+			};
+			name = Debug;
+		};
+		4810C80D24C836D6000006CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoleServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.BoleServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoleService;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4810C7D824C836D4000006CD /* Build configuration list for PBXProject "BoleService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4810C80324C836D6000006CD /* Debug */,
+				4810C80424C836D6000006CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4810C80524C836D6000006CD /* Build configuration list for PBXNativeTarget "BoleService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4810C80624C836D6000006CD /* Debug */,
+				4810C80724C836D6000006CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4810C80824C836D6000006CD /* Build configuration list for PBXNativeTarget "BoleServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4810C80924C836D6000006CD /* Debug */,
+				4810C80A24C836D6000006CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4810C80B24C836D6000006CD /* Build configuration list for PBXNativeTarget "BoleServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4810C80C24C836D6000006CD /* Debug */,
+				4810C80D24C836D6000006CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4810C7D524C836D4000006CD /* Project object */;
+}
